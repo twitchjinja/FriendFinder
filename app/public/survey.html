@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Friend Finder</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-body">
+            <h1>About You!</h1>
+            <form>
+                <div class="container">
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+                        </div>
+                    </div>
+                    <!-- <div class="container">
+                        <div class="form-group">
+                            <label for="exampleFormControlFile1">Link to your image</label>
+                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        </div>
+                    </div> -->
+            </form>
+        </div>
+    </div>
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <p><b>Question 1</b></p>
+                <label for="exampleFormControlInput1">Your mind is always buzzing with unexplored ideas and plans.
+                </label>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <label for="exampleFormControlSelect1">Select an option</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <p><b>Question 2</b></p>
+                <label for="exampleFormControlInput1">Generally speaking, you rely more on your experience than your
+                    imagination.
+                </label>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <label for="exampleFormControlSelect1">Select an option</label>
+                    <select class="form-control" id="exampleFormControlSelect2">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <p><b>Question 3</b></p>
+                <label for="exampleFormControlInput1">You find it easy to stay relaxed and focused even when there is
+                    some pressure.
+                </label>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <label for="exampleFormControlSelect1">Select an option</label>
+                    <select class="form-control" id="exampleFormControlSelect3">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <p><b>Question 4</b></p>
+                <label for="exampleFormControlInput1">You rarely do something just out of sheer curiosity.
+                </label>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <label for="exampleFormControlSelect1">Select an option</label>
+                    <select class="form-control" id="exampleFormControlSelect4">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <p><b>Question 5</b></p>
+                <label for="exampleFormControlInput1">People can rarely upset you.
+                </label>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <label for="exampleFormControlSelect1">Select an option</label>
+                    <select class="form-control" id="exampleFormControlSelect5">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <p><b>Question 6</b></p>
+                <label for="exampleFormControlInput1">It is often difficult for you to relate to other people’s
+                    feelings.
+                </label>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <label for="exampleFormControlSelect1">Select an option</label>
+                    <select class="form-control" id="exampleFormControlSelect6">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <p><b>Question 7</b></p>
+                <label for="exampleFormControlInput1">In a discussion, truth should be more important than people’s
+                    sensitivities.
+                </label>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <label for="exampleFormControlSelect1">Select an option</label>
+                    <select class="form-control" id="exampleFormControlSelect7">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <p><b>Question 8</b></p>
+                <label for="exampleFormControlInput1">You rarely get carried away by fantasies and ideas.
+                </label>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <label for="exampleFormControlSelect1">Select an option</label>
+                    <select class="form-control" id="exampleFormControlSelect8">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <p><b>Question 9</b></p>
+                <label for="exampleFormControlInput1">You think that everyone’s views should be respected regardless of
+                    whether they are supported by facts or not.
+                </label>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <label for="exampleFormControlSelect1">Select an option</label>
+                    <select class="form-control" id="exampleFormControlSelect9">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <p><b>Question 10</b></p>
+                <label for="exampleFormControlInput1">You feel more energetic after spending time with a group of
+                    people.
+                </label>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <label for="exampleFormControlSelect1">Select an option</label>
+                    <select class="form-control" id="exampleFormControlSelect10">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+            </div>
+        </form>
+        <button type="button" id="submit" class="btn btn-primary">Find Your Match!</button>
+
+        <div id="myModal" class="modal" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Closest Match!</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p id="userMatch"></p>
+                      <p id="userMatchImage"></p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    <footer class="footer">
+        <div class="container">
+            <p><a href="/api/lists">API Friends list</a> | <a href="/api/waitlist">Github Repo</a>
+        </div>
+    </footer>
+
+    </div>
+</body>
+
+</html>
+
+
+<script type="text/javascript">
+
+
+    $("#submit").on("click", function (event) {
+        event.preventDefault();
+
+
+        var newFriend = {
+            name: $("#name").val().trim(),
+            // image: $("#exampleFormControlFile1").val().trim(),
+            scores: [$("#exampleFormControlSelect1").val().trim(),
+            $("#exampleFormControlSelect2").val().trim(),
+            $("#exampleFormControlSelect3").val().trim(),
+            $("#exampleFormControlSelect4").val().trim(),
+            $("#exampleFormControlSelect5").val().trim(),
+            $("#exampleFormControlSelect6").val().trim(),
+            $("#exampleFormControlSelect7").val().trim(),
+            $("#exampleFormControlSelect8").val().trim(),
+            $("#exampleFormControlSelect9").val().trim(),
+            $("#exampleFormControlSelect10").val().trim()]
+        };
+
+        console.log(newFriend);
+
+
+        $.post("/api/lists", newFriend)
+            .done(function (data) {
+                console.log('response = ' + JSON.stringify(data));
+                console.log(data.matchName);
+                $('#userMatch').text(data.matchName);
+                $("#userMatchImage").attr("src", data.matchImage);
+                $('#myModal').modal("show");
+
+
+
+
+
+                //alert("Submitted!");
+
+
+
+
+                // Clear the form when submitting
+                $("#name").val("");
+                $("#exampleFormControlFile1").val("");
+
+            });
+    });
+
+
+
+
+
+</script>
